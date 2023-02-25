@@ -1,0 +1,111 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+  margin: 0 2rem;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    p {
+      display: inline-block;
+      margin-left: 1rem;
+    }
+  }
+}
+
+nav {
+  ul {
+    list-style: none;
+    margin-right: 10rem;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    padding: 0 1em;
+    text-decoration: none;
+  }
+}
+
+main {
+  margin: 0 2rem;
+
+  .intro {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .button {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0;
+    width: 15rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .cards {
+    display: flex;
+    a {
+      text-decoration: none;
+    }
+
+    h2 {
+      color: #fff;
+      text-shadow: 2px 2px 2px #000000;
+      padding: 2rem 1rem;
+    }
+
+    img {
+      background-color: #fff;
+      border-radius: 50%;
+      margin-left: 1rem;
+    }
+  }
+
+  .article-1 {
+    width: 31vw;
+    height: 600px;
+    background-image: url(/exercises/aufgabe/uib/scss-aufgabe/uib-framework-sassy-speaker-shop-pawel-w88/images/white-box.jpg);
+    background-position: center;
+    margin-right: 1rem;
+  }
+
+  .article-2 {
+    width: 31vw;
+    height: 600px;
+    background-image: url(/exercises/aufgabe/uib/scss-aufgabe/uib-framework-sassy-speaker-shop-pawel-w88/images/room.jpg);
+    background-position: left bottom;
+    margin-right: 1rem;
+  }
+
+  .article-3 {
+    width: 31vw;
+    height: 600px;
+    background-image: url(/exercises/aufgabe/uib/scss-aufgabe/uib-framework-sassy-speaker-shop-pawel-w88/images/black-white.jpg);
+    background-position: center;
+  }
+}
+
+footer {
+  text-align: center;
+}
